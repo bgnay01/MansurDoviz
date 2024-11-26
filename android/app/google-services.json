@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "666556841944",
+    "firebase_url": "https://ozgurdoviz-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ozgurdoviz",
+    "storage_bucket": "ozgurdoviz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666556841944:android:6b8e6b92df6b6aad45fcad",
+        "android_client_info": {
+          "package_name": "com.example.untitled"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB_ayhe6V3tCLMHmTzETb99MPDCDBoB68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666556841944:android:25f27ff938ac67e545fcad",
+        "android_client_info": {
+          "package_name": "com.mansurdoviz.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB_ayhe6V3tCLMHmTzETb99MPDCDBoB68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
