@@ -28,9 +28,11 @@ require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelpe
 flutter_ios_podfile_setup
 
 target 'Runner' do
+  
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   # PDFTron Pods
-  use_frameworks!
+  use_frameworks! :linkage => :static
+  pod 'Firebase', :modular_headers => true
   pod 'PDFTron', podspec: 'https://pdftron.com/downloads/ios/flutter/pdftron/latest.podspec'
   pod 'PDFTronTools', podspec: 'https://pdftron.com/downloads/ios/flutter/pdftron-tools/latest.podspec'
 end
