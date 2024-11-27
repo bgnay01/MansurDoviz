@@ -33,6 +33,9 @@ target 'Runner' do
   # PDFTron Pods
   use_frameworks! :linkage => :static
   pod 'Firebase', :modular_headers => true
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'FirebaseDatabase', :modular_headers => true
   pod 'PDFTron', podspec: 'https://pdftron.com/downloads/ios/flutter/pdftron/latest.podspec'
   pod 'PDFTronTools', podspec: 'https://pdftron.com/downloads/ios/flutter/pdftron-tools/latest.podspec'
 end
